@@ -7,9 +7,15 @@
 
     <!-- Include the AngularJS library -->
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
   </head>
 
   <body ng-app="StarwarsApp">
+    <script>
+
+    var myDataRef = new Firebase('https://burning-inferno-3207.firebaseio.com/');
+
+    </script>
     <div class="header">
       <div class="container">
         <h1>A long time ago in a galaxy far far away...</h1>

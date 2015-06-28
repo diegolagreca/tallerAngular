@@ -1,1 +1,1 @@
-var app = angular.module('StarwarsApp', []);
+var app = angular.module('StarwarsApp', ["firebase"]);
